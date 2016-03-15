@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AE873B1C980B8D00E14DFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE873A1C980B8D00E14DFF /* main.m */; };
+		04AE873E1C980B8D00E14DFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE873D1C980B8D00E14DFF /* AppDelegate.m */; };
+		04AE87411C980B8D00E14DFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE87401C980B8D00E14DFF /* ViewController.m */; };
+		04AE87461C980B8D00E14DFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE87451C980B8D00E14DFF /* Images.xcassets */; };
+		04AE87491C980B8D00E14DFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE87471C980B8D00E14DFF /* LaunchScreen.xib */; };
+		04AE87551C980B8D00E14DFF /* FSNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE87541C980B8D00E14DFF /* FSNetworkingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AE874F1C980B8D00E14DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AE872D1C980B8D00E14DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AE87341C980B8D00E14DFF;
+			remoteInfo = FSNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AE87351C980B8D00E14DFF /* FSNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE87391C980B8D00E14DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AE873A1C980B8D00E14DFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AE873C1C980B8D00E14DFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AE873D1C980B8D00E14DFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AE873F1C980B8D00E14DFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04AE87401C980B8D00E14DFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04AE87451C980B8D00E14DFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04AE87481C980B8D00E14DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04AE874E1C980B8D00E14DFF /* FSNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE87531C980B8D00E14DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AE87541C980B8D00E14DFF /* FSNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNetworkingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AE87321C980B8D00E14DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AE874B1C980B8D00E14DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AE872C1C980B8D00E14DFF = {
+			isa = PBXGroup;
+			children = (
+				04AE87371C980B8D00E14DFF /* FSNetworking */,
+				04AE87511C980B8D00E14DFF /* FSNetworkingTests */,
+				04AE87361C980B8D00E14DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AE87361C980B8D00E14DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AE87351C980B8D00E14DFF /* FSNetworking.app */,
+				04AE874E1C980B8D00E14DFF /* FSNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AE87371C980B8D00E14DFF /* FSNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				04AE873C1C980B8D00E14DFF /* AppDelegate.h */,
+				04AE873D1C980B8D00E14DFF /* AppDelegate.m */,
+				04AE873F1C980B8D00E14DFF /* ViewController.h */,
+				04AE87401C980B8D00E14DFF /* ViewController.m */,
+				04AE87451C980B8D00E14DFF /* Images.xcassets */,
+				04AE87471C980B8D00E14DFF /* LaunchScreen.xib */,
+				04AE87381C980B8D00E14DFF /* Supporting Files */,
+			);
+			path = FSNetworking;
+			sourceTree = "<group>";
+		};
+		04AE87381C980B8D00E14DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AE87391C980B8D00E14DFF /* Info.plist */,
+				04AE873A1C980B8D00E14DFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04AE87511C980B8D00E14DFF /* FSNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AE87541C980B8D00E14DFF /* FSNetworkingTests.m */,
+				04AE87521C980B8D00E14DFF /* Supporting Files */,
+			);
+			path = FSNetworkingTests;
+			sourceTree = "<group>";
+		};
+		04AE87521C980B8D00E14DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AE87531C980B8D00E14DFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AE87341C980B8D00E14DFF /* FSNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AE87581C980B8D00E14DFF /* Build configuration list for PBXNativeTarget "FSNetworking" */;
+			buildPhases = (
+				04AE87311C980B8D00E14DFF /* Sources */,
+				04AE87321C980B8D00E14DFF /* Frameworks */,
+				04AE87331C980B8D00E14DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSNetworking;
+			productName = FSNetworking;
+			productReference = 04AE87351C980B8D00E14DFF /* FSNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AE874D1C980B8D00E14DFF /* FSNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AE875B1C980B8D00E14DFF /* Build configuration list for PBXNativeTarget "FSNetworkingTests" */;
+			buildPhases = (
+				04AE874A1C980B8D00E14DFF /* Sources */,
+				04AE874B1C980B8D00E14DFF /* Frameworks */,
+				04AE874C1C980B8D00E14DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AE87501C980B8D00E14DFF /* PBXTargetDependency */,
+			);
+			name = FSNetworkingTests;
+			productName = FSNetworkingTests;
+			productReference = 04AE874E1C980B8D00E14DFF /* FSNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AE872D1C980B8D00E14DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "四维图新";
+				TargetAttributes = {
+					04AE87341C980B8D00E14DFF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04AE874D1C980B8D00E14DFF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04AE87341C980B8D00E14DFF;
+					};
+				};
+			};
+			buildConfigurationList = 04AE87301C980B8D00E14DFF /* Build configuration list for PBXProject "FSNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AE872C1C980B8D00E14DFF;
+			productRefGroup = 04AE87361C980B8D00E14DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AE87341C980B8D00E14DFF /* FSNetworking */,
+				04AE874D1C980B8D00E14DFF /* FSNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AE87331C980B8D00E14DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE87491C980B8D00E14DFF /* LaunchScreen.xib in Resources */,
+				04AE87461C980B8D00E14DFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AE874C1C980B8D00E14DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AE87311C980B8D00E14DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE87411C980B8D00E14DFF /* ViewController.m in Sources */,
+				04AE873E1C980B8D00E14DFF /* AppDelegate.m in Sources */,
+				04AE873B1C980B8D00E14DFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AE874A1C980B8D00E14DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE87551C980B8D00E14DFF /* FSNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AE87501C980B8D00E14DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AE87341C980B8D00E14DFF /* FSNetworking */;
+			targetProxy = 04AE874F1C980B8D00E14DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AE87471C980B8D00E14DFF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AE87481C980B8D00E14DFF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AE87561C980B8D00E14DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AE87571C980B8D00E14DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AE87591C980B8D00E14DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AE875A1C980B8D00E14DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04AE875C1C980B8D00E14DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FSNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSNetworking.app/FSNetworking";
+			};
+			name = Debug;
+		};
+		04AE875D1C980B8D00E14DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FSNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSNetworking.app/FSNetworking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AE87301C980B8D00E14DFF /* Build configuration list for PBXProject "FSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE87561C980B8D00E14DFF /* Debug */,
+				04AE87571C980B8D00E14DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AE87581C980B8D00E14DFF /* Build configuration list for PBXNativeTarget "FSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE87591C980B8D00E14DFF /* Debug */,
+				04AE875A1C980B8D00E14DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04AE875B1C980B8D00E14DFF /* Build configuration list for PBXNativeTarget "FSNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE875C1C980B8D00E14DFF /* Debug */,
+				04AE875D1C980B8D00E14DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AE872D1C980B8D00E14DFF /* Project object */;
+}
